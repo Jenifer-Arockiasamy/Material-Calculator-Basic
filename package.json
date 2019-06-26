@@ -1,0 +1,51 @@
+{
+  "name": "material-calulator-basic",
+  "productName": "Calculator",
+  "version": "0.1.0",
+  "description": "Simple Calculator Application using Material UI and React and Typescript",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.1.1",
+    "@types/jest": "24.0.15",
+    "@types/node": "12.0.8",
+    "@types/react": "16.8.21",
+    "@types/react-dom": "16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "typescript": "3.5.2",
+    "electron-is-dev": "^1.1.0"
+  },
+  "main": "public/electron-main.js",
+  "homepage": ".",
+  "scripts": {
+    "start": "concurrently \"BROWSER=none react-scripts start\" \"wait-on http://localhost:3000 && electron public/electron-main.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "package-linux": "electron-packager . Material-Calc --overwrite --asar --platform=linux --arch=x64 --icon=assets/calc-icons/1024x1024.png --prune=true --out=release-builds",
+    "package-win": "electron-packager . Material-Calc --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/calc-icons/1024x1024.png --prune=true --out=release-builds"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "electron": "^5.0.5",
+    "electron-builder": "^20.44.4",
+    "electron-packager": "^14.0.0",
+    "wait-on": "^3.2.0"
+  }
+}
