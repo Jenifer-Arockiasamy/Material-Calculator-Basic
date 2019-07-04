@@ -19,8 +19,11 @@ A simple calculator with basic functionalities.
     # install dependencies
     npm install
 
-    # run application
+    # run application on web
     npm start
+
+    # build application
+    npm run build
 
     # packaging for linux platform
     npm run package-linux
@@ -28,12 +31,18 @@ A simple calculator with basic functionalities.
     # packaging for windows platform
     npm run package-win
 
+    # download linux package
+    https://drive.google.com/open?id=1Gc7xJUSB3NNuHbnzjmYe7I9IEXK786PK
+
+    # download windows package
+    https://drive.google.com/open?id=1f_tC9Chum9gxsSoAllMB5P2x7APew9bP
+
 ---
 
 ## Technologies
 
 - React
-- material-ui
+- Material UI
 - Typescript
 - Electron
 
@@ -43,3 +52,4 @@ A simple calculator with basic functionalities.
 
 - https://material-ui.com/getting-started/installation/
 - https://electronjs.org/docs
+- https://www.christianengvall.se/category/electron/
