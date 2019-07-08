@@ -31,11 +31,12 @@ A simple calculator with basic functionalities.
     # packaging for windows platform
     npm run package-win
 
-    # download linux package
-    https://drive.google.com/open?id=1Gc7xJUSB3NNuHbnzjmYe7I9IEXK786PK
+---
 
-    # download windows package
-    https://drive.google.com/open?id=1f_tC9Chum9gxsSoAllMB5P2x7APew9bP
+## Downloads
+
+> * *Linux Package: [Material-Calc_Linux](https://drive.google.com/open?id=1Gc7xJUSB3NNuHbnzjmYe7I9IEXK786PK)*
+> * *Windows Package: [Material-Calc_Windows](https://drive.google.com/open?id=1f_tC9Chum9gxsSoAllMB5P2x7APew9bP)*
 
 ---
 
